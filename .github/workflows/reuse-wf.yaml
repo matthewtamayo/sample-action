@@ -5,5 +5,4 @@ on:
   
 jobs:
   pass-data:
-    uses: matthewtamayo/sample-action/@main
-    
+    uses: matthewtamayo/sample-action@main
