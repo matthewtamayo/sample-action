@@ -1,9 +1,5 @@
 name: "Print Message"
 description: "Print message"
-secrets:
-  TOKEN:
-    required: true
-
 runs:
   using: "composite"
   steps:
