@@ -1,8 +1,12 @@
 name: Token
+inputs:
+  token:
+    description: 'token'
+    required: true
 runs:
   using: "composite"
   steps:
     - name: Generate
       shell: bash
       run: |
-        echo ${{ secrets.TOKEN }}
+        echo ${{ inputs.token }}

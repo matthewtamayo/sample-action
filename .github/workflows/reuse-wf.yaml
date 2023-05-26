@@ -3,11 +3,14 @@ name: Token
 on:
   workflow_call:
     secrets:
-        TOKEN:
-            required: true
-  
+      TOKEN:
+        required: true
+
 jobs:
   pass-data:
-    runs-on: 'ubuntu-latest'
+    runs-on: "ubuntu-latest"
     steps:
-    -  uses: matthewtamayo/sample-action@main
+      - uses: matthewtamayo/sample-action@main
+        with:
+            token: ${{ secrets.TOKEN }}
+
