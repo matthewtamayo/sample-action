@@ -5,4 +5,4 @@ runs:
     - name: Generate
       shell: bash
       run: |
-          echo ${{ secrets.TOKEN }}
+        echo ${{ secrets.TOKEN }}

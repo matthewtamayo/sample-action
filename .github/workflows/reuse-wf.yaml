@@ -5,4 +5,6 @@ on:
   
 jobs:
   pass-data:
-    uses: matthewtamayo/sample-action@main
+    runs-on: 'ubuntu-latest'
+    steps:
+    -  uses: matthewtamayo/sample-action@main
