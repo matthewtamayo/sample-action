@@ -1,9 +1,8 @@
-name: "Print Message"
-description: "Print message"
+name: Token
 runs:
   using: "composite"
   steps:
-    - name: Print message
+    - name: Generate
       shell: bash
       run: |
-        echo ${{ secrets.TOKEN }}   
+          echo ${{ secrets.TOKEN }}

@@ -1,0 +1,9 @@
+name: Token
+
+on:
+  workflow_call:
+  
+jobs:
+  pass-data:
+    uses: matthewtamayo/sample-action/@main
+    
