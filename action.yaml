@@ -1,9 +1,5 @@
 name: "Print Message"
 description: "Print message"
-inputs:
-  messsage:
-    type: string
-    required: true
 secrets:
   TOKEN:
     required: true
