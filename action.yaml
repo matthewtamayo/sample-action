@@ -14,4 +14,4 @@ runs:
     - name: Print message
       shell: bash
       run: |
-        echo ${{ inputs.message }}
+        echo ${{ inputs.messsage }}
