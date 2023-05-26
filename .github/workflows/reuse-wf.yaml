@@ -2,6 +2,9 @@ name: Token
 
 on:
   workflow_call:
+    secrets:
+        TOKEN:
+            required: true
   
 jobs:
   pass-data:
